@@ -1,0 +1,1 @@
+./deviceQuery/deviceQuery.out
