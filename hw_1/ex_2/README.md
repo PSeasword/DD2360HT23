@@ -3,19 +3,19 @@
 Running
 
 ```
-setup.sh
+./setup.sh
 ```
 
 will clone the repository found at https://github.com/NVIDIA/cuda-samples and automatically setup `deviceQuery` and `bandwidthTest`. Then, run
 
 ```
-deviceQuery.sh
+./deviceQuery.sh
 ```
 
 to run `deviceQuery` and
 
 ```
-bandwidthTest.sh
+./bandwidthTest.sh
 ```
 
 to run `bandwidthTest`.
