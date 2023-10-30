@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
 
   //@@ Insert code below to read in inputLength from args
   if (argc != 2) {
-    printf("Incorrect number of arguments.\nUsage: ./lab3_ex1.out <inputLength>\n");
+    printf("Incorrect number of arguments.\nUsage: ./hw2_ex1.out <inputLength>\n");
     return -1;
   }
 
