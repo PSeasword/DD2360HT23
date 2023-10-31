@@ -3,6 +3,7 @@
 Running
 
 ```
+chmod +x setup.sh
 ./setup.sh
 ```
 
