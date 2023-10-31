@@ -3,7 +3,14 @@
 To run NVIDIA Nsight, run the scripts
 
 ```
+chmod +x nsight1024.sh
 ./nsight1024.sh
+```
+
+and
+
+```
+chmod +x nsight131070.sh
 ./nsight131070.sh
 ```
 
