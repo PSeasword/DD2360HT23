@@ -17,6 +17,7 @@ chmod +x nsight131070.sh
 with vector lengths 1024 and 131070, respectively. To obtain data for further vector lengths, run
 
 ```
+chmod +x furtherVectorLengths.sh
 ./furtherVectorLengths.sh
 ```
 
