@@ -11,8 +11,8 @@ echo "Using dimX $dimX and nsteps $nsteps"
 echo "==================== With prefetching ===================="
 
 for i in {1..1}; do
-  nvprof --output-profile withPrefetching.nvvp -f ./lab4_ex4.out "$dimX" "$nsteps" 1
-  nvprof ./lab4_ex4.out "$dimX" "$nsteps" 1
+  nvprof --output-profile withPrefetching.nvvp -f ./hw4_ex3.out "$dimX" "$nsteps" 1
+  nvprof ./hw4_ex3.out "$dimX" "$nsteps" 1
   echo ""
 done
 
@@ -22,7 +22,7 @@ echo ""
 echo "==================== Without prefetching ===================="
 
 for i in {1..1}; do
-  nvprof --output-profile withoutPrefetching.nvvp -f ./lab4_ex4.out "$dimX" "$nsteps" 0
-  nvprof ./lab4_ex4.out "$dimX" "$nsteps" 0
+  nvprof --output-profile withoutPrefetching.nvvp -f ./hw4_ex3.out "$dimX" "$nsteps" 0
+  nvprof ./hw4_ex3.out "$dimX" "$nsteps" 0
   echo ""
 done
