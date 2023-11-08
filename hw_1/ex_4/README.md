@@ -10,6 +10,7 @@ chmod +x computeNode10min.sh
 to get a compute node for 10 minutes, and then
 
 ```
+chmod +x runHelloWorld.sh
 ./runHelloWorld.sh
 ```
 
